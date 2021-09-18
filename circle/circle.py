@@ -1,4 +1,4 @@
-import math
+from math import pi
 
 
 class Circle:
@@ -11,7 +11,7 @@ class Circle:
 
     @property
     def area(self):
-        return math.pi * (self.radius * self.radius)
+        return pi * (self.radius * self.radius)
 
     def __repr__(self):
         return f'Circle({self.radius})'
