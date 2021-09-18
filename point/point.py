@@ -24,5 +24,4 @@ class Point:
     def __mul__(self, val: int):
         return Point(self.x * val, self.y * val, self.z * val)
 
-    def __rmul__(self, val: int):
-        return Point(self.x * val, self.y * val, self.z * val)
+    __rmul__ = __mul__
