@@ -1,5 +1,5 @@
 def split_date(str_input):
-    month = int(str_input[0:2])
+    month = int(str_input[:2])
     date = int(str_input[3:5])
     year = int(str_input[6:])
     return year, month, date
